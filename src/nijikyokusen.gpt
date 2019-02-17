@@ -1,0 +1,6 @@
+set parametric
+l=1
+a=0
+ec=0.9
+r(t)=l**2/(1+ec*cos(t+a))
+plot [0:2*pi] r(t)*cos(t),r(t)*sin(t)

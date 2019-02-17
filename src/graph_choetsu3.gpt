@@ -1,0 +1,5 @@
+set term postscript eps
+set out "plot_choetsu3.ps"
+plot "tmp_choetsu3.dat" u 1:2 w l
+set out
+set term x11

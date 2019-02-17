@@ -1,0 +1,7 @@
+set term postscript eps
+set out 'graph_euler1.ps'
+plot 'tmp_euler1.dat' u 1:2 w l title 'numerical root',\
+'tmp_euler1.dat' u 1:2 w l title 'analytical root'
+set out
+set term x11
+

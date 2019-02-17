@@ -1,0 +1,8 @@
+set term postscript eps
+set out 'oj287_orbit.ps'
+set polar
+set grid polar
+set size square
+plot 'tmp_report2.dat' u 4:3 w l title 'orbit of the small black hole'
+set out
+set term x11

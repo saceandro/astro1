@@ -1,0 +1,9 @@
+set term postscript enhanced color
+set out 'graph_lorenz.ps'
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+set size square
+splot 'tmp_lorenz.dat' u 2:3:4 w l title 'Lorenz equations'
+set out
+set term x11
